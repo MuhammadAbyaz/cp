@@ -1,0 +1,6 @@
+n = int(input())
+arr = list(map(int, input().split()))
+arr = "".join(map(str, arr))
+first = arr.find("1")
+last = arr.rfind("1")
+print(last - first)

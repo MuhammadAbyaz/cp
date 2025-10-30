@@ -1,0 +1,5 @@
+.cph/
+*/.cph
+.mypy_cache/
+.vscode
+*.out
